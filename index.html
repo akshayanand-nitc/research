@@ -48,38 +48,7 @@
         .burger { display: flex; }
     }
 
-    .hero {
-    min-height: 100vh;
-    padding: 0 10%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   /* Center vertically */
-    align-items: center;       /* Center horizontally */
-    text-align: center;
-    overflow: hidden;
-    background: url('https://raw.githubusercontent.com/akshayanand-nitc/akshay/refs/heads/main/hero.jpg') no-repeat center top/cover;
-}
-
-/* Dark overlay to make the image opacity 40% */
-.hero::after {
-    content: "";
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(10, 10, 10, 0.88); /* 40% visible image */
-    z-index: 1;
-}
-
-/* Gradient Overlay (kept as original but now above the dark overlay) */
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: linear-gradient(to bottom, rgba(10,10,10,0.0) 100%, rgba(10,10,10,0.8) 100%, rgba(10,10,10,1) 100%);
-    z-index: 2;
-}
+ 
     /* ===== Page Section ===== */
     .research-section {
         padding: 120px 10% 50px; position: relative; z-index: 2;
@@ -136,24 +105,21 @@
         <div></div><div></div><div></div>
     </div>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="akshayanand-nitc.github.io">Home</a>
+        <a href="akshayanand-nitc.github.io/about-me">About</a>
+        <a href="akshayanand-nitc.github.io/research">Research</a>
+        <a href="akshayanand-nitc.github.io/contact">Contact</a>
     </nav>
 </header>
 
 <div class="mobile-nav" id="mobileNav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="research.html">Research</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
+    <a href="akshayanand-nitc.github.io">Home</a>
+    <a href="akshayanand-nitc.github.io/about-me">About</a>
+    <a href="akshayanand-nitc.github.io/research">Research</a>
+    <a href="akshayanand-nitc.github.io/contact">Contact</a>
 </div>
 
 <section class="research-section">
-    <section class="hero">
     <!-- Spotlights -->
     <div class="spotlight one"></div>
     <div class="spotlight two"></div>
@@ -171,7 +137,7 @@
 
         
     </div>
-</section></section>
+</section>
 
 <script>
 function toggleMenu() {
